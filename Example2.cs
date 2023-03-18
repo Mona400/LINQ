@@ -9,8 +9,8 @@ Expected input and output
 
 /*Solution*/
  List<string> names = new List<string>() { "mona","abdelmonem","ali","mostafa","abdlahamn"};
-            var res = names.Where(x=>x.Length>=5).Select(x =>x.ToUpper());
-            foreach (var n in res)
-            {
-                Console.Write(n+" ");   //ABDELMONEM MOSTAFA ABDLAHAMN
-            }
+ var res = names.Where(x=>x.Length>=5).Select(x =>x.ToUpper());
+ foreach (var n in res)
+ {
+     Console.Write(n+" ");   //ABDELMONEM MOSTAFA ABDLAHAMN
+ }
