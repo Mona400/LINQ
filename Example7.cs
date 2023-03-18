@@ -5,3 +5,10 @@ Expected input and output
 ["plane", "ferry", "car", "bike"]→ "plane"
 
 */
+
+/*Solution*/
+
+  List<string> names = new List<string>() { "plane", "ferry", "car", "bike" };
+  var res = names.OrderBy(x => x).LastOrDefault(x => x.EndsWith('e'));
+
+  Console.Write(res + " ");   //plane
