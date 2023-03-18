@@ -8,3 +8,14 @@ Expected input and output
 
 */
 
+/* Solution*/
+
+
+ List<int> numbers = new List<int>() { 30, 54, 3, 14, 25, 82, 1, 100, 23, 95 };
+            var res = numbers.Where(x => x > 30).Where(x => x < 100);
+            foreach (var x in res)
+            {
+                Console.Write(x+" ");   //Output: 54 82 95
+            }
+
+
