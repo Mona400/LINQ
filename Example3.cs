@@ -13,3 +13,4 @@ foreach (var n in res)
 {
     Console.Write(n+" ");   //amonam abdelmonem alim amamm
 }
+
