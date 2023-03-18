@@ -7,3 +7,7 @@ Expected input and output
 
 
 */
+/* Solution */
+    var str = "MonaaaanaaanAaa";
+    var mostFrequentCharacter = str.GroupBy(x => x).OrderByDescending(x => x.Count()).FirstOrDefault().Key;
+    Console.WriteLine(  mostFrequentCharacter);   //a
